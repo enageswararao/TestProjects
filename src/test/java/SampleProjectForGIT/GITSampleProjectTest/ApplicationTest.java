@@ -18,6 +18,9 @@ public class ApplicationTest {
 	@Test public void tc_002_TestCase2(){
 		System.out.println("tc_002 TestCase2.......");
 	}
+	@Test public void tc_003_TestCase3(){
+		System.out.println("tc_002 TestCase2.......");
+	}
 	
 	@Test public void tc_003_TestCase3(){
 		System.out.println("tc_003 TestCase3.......");
