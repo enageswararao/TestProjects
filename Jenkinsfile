@@ -27,7 +27,7 @@ agent any
         stage('send email') {
         def subject = "Test Result"
         def content = 'ًLog file attached'
-        def toList = ["aaa@gmail.com", "bbb@gmail.com"]        
+        def toList = ["nageswara.eslavath@gmail.com"]        
         lib.sendMail(toList, , subject, content)
     }
     }
