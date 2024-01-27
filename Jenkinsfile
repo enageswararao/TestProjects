@@ -24,11 +24,7 @@ agent any
                 sh './jenkins/scripts/deliver.sh'
             }
         }
-        stage('send email') {
-        def subject = "Test Result"
-        def content = 'ًLog file attached'
-        def toList = ["nageswara.eslavath@gmail.com"]        
-        lib.sendMail(toList, , subject, content)
+       
     }
     }
 }
